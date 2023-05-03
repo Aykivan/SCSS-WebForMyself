@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 100%;
+  font-size: 20px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input ::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  bottom: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+input {
+  border: 1px solid rgba(97, 96, 96, 0.4352941176);
+}
+
+.first_block {
+  margin: 100px;
+  padding: 40px;
+  line-height: 1;
+  background-color: #d2d2d2;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.first_block h2.title {
+  margin: 0 40px 40px;
+  text-align: center;
+}
+.first_block .test__block {
+  text-align: center;
+}
+.first_block .test__block .fb__block2, .first_block .test__block .fb__block3 {
+  margin: 20px auto;
+  padding: 10px;
+  width: 400px;
+  background-color: rgb(83, 152, 161);
+  border: 2px solid #000;
+}
+.first_block .test__block .fb__block2 h2, .first_block .test__block .fb__block3 h2 {
+  font-size: 40px;
+}
+.first_block .test__block .fb__block3 {
+  position: relative;
+}
+.first_block .test__block .fb__block3::after {
+  content: "";
+  right: -2px;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: #d2d2d2;
+  border-radius: 0 0 0 20px;
+}
+.first_block .test__block .fb__block3::before {
+  content: "";
+  left: -2px;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: #d2d2d2;
+  border-radius: 0 0 20px 0;
+}
+.first_block .test__block .fb__block3 {
+  width: 300px;
+  background-color: rgb(89, 145, 89);
+}
+.first_block .test__block .fb__block3 h2 {
+  font-size: 20px;
+}
