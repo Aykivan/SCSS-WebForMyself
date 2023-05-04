@@ -92,23 +92,23 @@ input {
   margin: 0 40px 40px;
   text-align: center;
 }
-.first_block .test__block {
+.test__block {
   text-align: center;
 }
-.first_block .test__block .fb__block2, .first_block .test__block .fb__block3 {
+.test__block .fb__block2, .test__block .fb__block3 {
   margin: 20px auto;
   padding: 10px;
   width: 400px;
   background-color: rgb(83, 152, 161);
   border: 2px solid #000;
 }
-.first_block .test__block .fb__block2 h2, .first_block .test__block .fb__block3 h2 {
+.test__block .fb__block2 h2, .test__block .fb__block3 h2 {
   font-size: 40px;
 }
-.first_block .test__block .fb__block3 {
+.test__block .fb__block3 {
   position: relative;
 }
-.first_block .test__block .fb__block3::after {
+.test__block .fb__block3::after {
   content: "";
   right: -2px;
   top: -2px;
@@ -118,7 +118,7 @@ input {
   background-color: #d2d2d2;
   border-radius: 0 0 0 20px;
 }
-.first_block .test__block .fb__block3::before {
+.test__block .fb__block3::before {
   content: "";
   left: -2px;
   top: -2px;
@@ -128,10 +128,60 @@ input {
   background-color: #d2d2d2;
   border-radius: 0 0 20px 0;
 }
-.first_block .test__block .fb__block3 {
+.test__block .fb__block3 {
   width: 300px;
   background-color: rgb(89, 145, 89);
 }
-.first_block .test__block .fb__block3 h2 {
+.test__block .fb__block3 h2 {
   font-size: 20px;
+}
+.test__block p {
+  margin: 0 auto;
+  font-size: 20px;
+  font-style: 20px;
+  line-height: 20px;
+  color: red;
+  border: 1px solid red;
+  font-style: italic;
+  width: 600px;
+}
+.test__block p a {
+  text-decoration: none;
+  display: inline-block;
+  color: darkblue;
+  border-bottom: 1px solid red;
+}
+.test__block p a:hover {
+  border-color: transparent;
+}
+.test__block p span {
+  font-weight: bold;
+}
+.test__block p b {
+  color: rgb(89, 145, 89);
+}
+.test__block a {
+  text-decoration: none;
+  display: inline-block;
+  color: darkblue;
+  border-bottom: 1px solid red;
+}
+.test__block a:hover {
+  border-color: transparent;
+}
+
+.btn {
+  margin: 50px auto;
+  padding: 10px;
+  width: 220px;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none;
+  text-align: center;
+  color: red;
+  background-color: blue;
+}
+.btn:hover {
+  background-color: #0000cc;
 }
